@@ -1,0 +1,121 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;&display=swap');
+</style>
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(241, 241, 247);
+}
+.wrapper{
+    display: flex;
+    gap: 1.5rem;
+    height: 500px;
+    width: 70%;
+    margin-top: 100px;
+    padding-left: 200px;
+
+    
+}
+.column-1{
+    background-color: hsl(31,77%,52%);
+    color: hsl(0, 0%, 100%, 0.75);
+    float: left;
+    width: 35%;
+    padding-top: 40px;
+    height: 350px;
+
+}
+.column-1 h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display',;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.column-1 p{
+    color: hsl(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 10px;  
+}
+.column-1 button{
+    padding: 5px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 35px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.column-2{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 100%, 0.75);
+    float: left;
+    width: 35%;
+    padding-top: 40px;
+    height: 350px;
+}
+.column-2 h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display',;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.column-2 p{
+    color: hsl(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.column-2 button{
+    padding: 5px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 35px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.column-3{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 100%, 0.75);
+    float: left;
+    width: 35%;
+    padding-top: 40px;
+    height: 350px;
+}
+.column-3 h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display',;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.column-3 p{
+    color: hsl(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 10px; 
+}
+.column-3 button{
+    padding: 5px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 35px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+
+@media screen and (max-width:375px) {
+.wrapper{
+    flex-direction: column;
+    width: 100%;
+}
+    
+}
